@@ -5,6 +5,13 @@ body{
     font-family: 'Playfair Display SC', serif;
     color: slategray;
 }
+h1{
+    overflow-x: hidden;
+    font-family: 'Playfair Display SC', serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 100px;
+}
 .navbar{
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -25,4 +32,21 @@ body{
 
 .carousel-item {
     height: 100vh;
+}
+.carousel-caption{
+    position: absolute;
+    top: 38%;
+
+}
+.carousel-caption h1{
+    font-weight: 700;
+    font-size: 7em;
+    color: black;
+    opacity: 0.8;
+}
+.carousel-caption h2{
+    font-weight: 700;
+    font-size: 9em;
+    color: black;
+    opacity: 0.7;
 }
