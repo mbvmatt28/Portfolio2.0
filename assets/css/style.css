@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Playfair Display SC', serif;
+    color: slategray;
+}
+.navbar{
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    background: rgba(0,0,0,.6)!important;
+
+}
+
+.navbar-brand img{
+    height: 2rem;
+}
+
+.navbar-brand li{
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+.carousel-item {
+    height: 100vh;
+}
