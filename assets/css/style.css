@@ -61,15 +61,7 @@ h1{
     text-align: center;
 }
 
-#portfolio{
-    float: left;
-    margin-left: 30px;
-}
 
-
-.portfolio img{
-  max-width: 100%;
-}
 .pic{
     width: 130px;
     margin-left: 30px;
@@ -87,4 +79,14 @@ h1{
     text-align: center;
     margin-top: 220px;
     float: left;
+}
+.text {
+    margin-top: -200px;
+ 
+    font-size: 5em;
+
+}
+
+h5{
+    font-size: 100px;
 }
